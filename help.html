@@ -1,0 +1,230 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" >
+  <script type="text/javascript" src="js/main.js"></script>
+  <script async src="https://cse.google.com/cse.js?cx=002501050055658815772:8i7iu0qkgnv"></script>
+  <script type="text/javascript">
+    function send() {
+      var res = document.getElementById('result');
+      res.innerHTML = "Thank You" + document.getElementById('name').value + document.getElementById('surname').value + "</strong>!<br>";
+      res.innerHTML = "We got your this informations" + document.getElementById('phone').value + document.getElementById('email').value + "</strong>!<br>";
+      result.innerHTML += (number1 + " multiplied by " + number2 + " is " + number1*number2);
+    }
+    </script>
+    <title>Help</title>
+	<style>
+    	.nav
+	{
+	color:white;
+	background-color:#428bca;	
+	
+	}
+  .nav-link {
+  position: relative;
+  padding: 1rem;
+  font-weight: 500;
+  color: #cdddeb;
+}
+.nav-link:hover,
+.nav-link:focus {
+  color: #fff;
+  background-color: transparent;
+}
+
+.navlink2 {
+	font-size:12px;
+}
+.navlink2:hover,
+.navlink2:focus {
+  color: #fff;
+  background-color: transparent;
+}
+	.card
+	{
+	margin:0 ;
+	float:none;
+	margin-bottom:10px;
+	
+	}
+	.Absolute-Center
+	{
+	margin:auto;
+	position:absolute;
+	top:0;
+	left:0;
+	bottom:0;
+	right:0;
+	}
+	.Absolute-Center.is-Responsive{
+	width:50%;
+	height:50%;
+	min-width:200px;
+	max-width:400px;
+	padding:40px;
+	}
+	
+	
+	</style>
+  </head>
+   <body class="bg-light">
+   <ul class="nav justify-content-center">
+  <li class="nav-item">
+    <a class="nav-link active" href="https://www.hepsiburada.com/">Orders</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="Campaings.html">Campaings</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="blank.html">Gift token </a>
+  </li>
+   <li class="nav-item">
+    <a class="nav-link" href="blank.html">One Click Shopping</a>
+  </li>
+   <li class="nav-item">
+    <a class="nav-link" href="six.html">FAQS</a>  </li>
+   <li class="nav-item">
+    <a class="nav-link" href="help.html">Help</a>
+  </li>
+   <li class="nav-item">
+    <a class="nav-link" href="videopage.html">VideoPage</a>
+  </li>  
+  </ul>	
+	
+	<!-- Navs Bar end -->
+	
+	<!--search   -->
+<header>
+  
+
+      <div class="blog-header">
+        <div class="container">
+			<div class="row">
+				<div class="col-md-3">
+					<h1 class="blog-title">yarısıburada</h1>
+				</div>
+				<div class="col-md-5">
+					<form>
+						<div class="form-group row">
+							<div class="col-sm-10">
+								<div class="gcse-search"></div>
+							</div>
+					</form>
+				</div>
+				</div>
+				<div class="col-md-2">
+				<div class="dropdown" align="right">
+					  <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						Account
+					  </button>
+					  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+						<a class="dropdown-item" href="#">Cart</a>
+						<a class="dropdown-item" href="#">My Orders</a>
+						<a class="dropdown-item" href="#">Exit</a>
+					  </div>
+					</div>
+				</div>
+				<div class="col-md-2">
+				<button type="button" class="btn btn-primary">
+				  Cart <span class="badge badge-light">4</span>
+				</button>
+				</div>
+				
+        </div>
+      </div>
+    </header>
+    <div class="container">
+  <div class="py-5 text-center">
+    <img class="d-block mx-auto mb-4" src="/docs/4.4/assets/brand/bootstrap-solid.svg" alt="" width="72" height="72">
+    <h2>Contact Me!</h2>
+    <p class="lead">This page is my contact forms.Please fill up</p>
+  </div>
+
+  <div class="row">
+
+   
+    <div class="col-md-12 order-md-1">
+      <h4 class="mb-3">Contact-Form</h4>
+      <form action="php/contact.php" onsubmit="return check();" method="post" class="needs-validation" novalidate>
+        <div class="row">
+          <div class="col-md-6 mb-3">
+            <label for="firstName">Name</label>
+            <input type="text" class="form-control" id="name" name="name" placeholder="Adınız" value="" required>
+            <div class="invalid-feedback">
+              Valid first name is required.
+            </div>
+          </div>
+          <div class="col-md-6 mb-3">
+            <label for="lastName">Last Name</label>
+            <input type="text" class="form-control" id="surname" name="surname" placeholder="Soyadınız" value="" required>
+            <div class="invalid-feedback">
+              Valid last name is required.
+            </div>
+          </div>
+        </div>
+
+       
+
+        <div class="mb-3">
+          <label for="email">Email <span class="text-muted">(Optional)</span></label>
+          <input type="email" class="form-control" id="email" name="email" placeholder="you@example.com">
+          <div class="invalid-feedback">
+            Please enter a valid email address for shipping updates.
+          </div>
+        </div>
+
+      
+
+        <div class="mb-3">
+          <label for="address2">Phone Number <span class="text-muted">(Optional)</span></label>
+          <input type="text" class="form-control" id="phone" name="phone" placeholder="+()...">
+        </div>
+
+        <div class="row">
+          <div class="col-md-5 mb-3">
+            <label for="country">Country</label>
+            <select class="custom-select d-block w-100" id="country" required>
+              <option value="">Choose...</option>
+              <option>United States</option>
+            </select>
+            <div class="invalid-feedback">
+              Please select a valid country.
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <label for="state">State</label>
+            <select class="custom-select d-block w-100" id="state" required>
+              <option value="">Choose...</option>
+              <option>California</option>
+            </select>
+            <div class="invalid-feedback">
+              Please provide a valid state.
+            </div>
+          </div>
+         
+        </div>
+       <button class="btn btn-primary btn-lg btn-block" onclick="check();" type="button">Check</button>
+        <button class="btn btn-primary btn-lg btn-block" onclick="send()" type="submit" id="send">Send</button>
+      </form>
+      <p id="result"></p>
+    </div>
+  </div>
+
+  <footer class="my-5 pt-5 text-muted text-center text-small">
+    <p class="mb-1">&copy; 2020 RecepHomework</p>
+    <ul class="list-inline">
+      <li class="list-inline-item"><a href="index.html">Home</a></li>
+      <li class="list-inline-item"><a href="about.html">About</a></li>
+      <li class="list-inline-item"><a href="help.html">Help</a></li>
+    </ul>
+  </footer>
+</div>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+      <script>window.jQuery || document.write('<script src="/docs/4.4/assets/js/vendor/jquery.slim.min.js"><\/script>')</script><script src="/docs/4.4/dist/js/bootstrap.bundle.min.js" integrity="sha384-6khuMg9gaYr5AxOqhkVIODVIvm9ynTT5J4V1cfthmT+emCG6yVmEZsRHdxlotUnm" crossorigin="anonymous"></script>
+        <script src="form-validation.js"></script></body>
+</html>
